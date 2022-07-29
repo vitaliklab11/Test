@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,600;0,800;1,700&display=swap');
+
+body{
+	margin: 0;	
+	font-size: 14px;
+	color: #222222;
+	background-color: #ffffff;
+}
+.header_text{
+	margin-top: 120px;
+}
+
+.container{
+	font-family: 'Raleway', sans-serif;
+	max-width: 920px;
+	margin: 0 auto;
+}
+
+.intro_text{
+	font-weight: 700;
+	font-size: 42px;
+}
+.main_text{
+	line-height: 1.5;
+	word-spacing: 3px;
+	font-weight: 500;
+	font-size: 18px;      
+	margin-top: 20px;
+}
+.general_messages{
+	margin-top: 40px;
+}
+.general_text{
+	font-weight: 800;
+}
+.main_area{
+display: flex;
+flex-wrap: wrap;
+margin-top: 25px;
+font-weight: 600;
+align-content: space-between;
+}
+.webinars{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 25px;
+	font-weight: 600;
+	align-content: space-between;
+}
+.webinars_line{
+  margin-right: 282px;
+}
+.webinars_message{
+	font-size: 13px;
+}
+
+.switch_working {
+	position: relative;
+	display: inline-block;
+	width: 30px;
+	height: 17px;
+	margin-right: 70px;
+}
+.switch_webinar {
+	position: relative;
+	display: inline-block;
+	width: 30px;
+	height: 17px;
+	margin-right: 70px;
+  }
+
+.working_line{   
+	margin-right: 320px;
+}
+.switch_massage {
+	position: relative;
+	display: inline-block;
+	width: 30px;
+	height: 17px;
+	margin-right: 70px;
+  }
+.switch_working {
+	position: relative;
+	display: inline-block;
+	width: 30px;
+	height: 17px;
+	margin-right: 70px;
+  }
+  .switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+  }
+  .personal_message{
+	margin-right: 343px;
+  }
+  .slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+  }
+  .slider:before {
+	position: absolute;
+	content: "";
+	height: 13px;
+	width: 13px;
+	left: 2px;
+	bottom: 2px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+  }
+
+  input:checked + .slider {
+	background-color: #16239b;
+  }
+  input:focus + .slider {
+	box-shadow: 0 0 1px #16239b;
+  }
+  input:checked + .slider:before {
+	-webkit-transform: translateX(13px);
+	-ms-transform: translateX(13px);
+	transform: translateX(13px);
+  }
+  .slider.round {
+	border-radius: 34px;
+  }
+  .slider.round:before {
+	border-radius: 50%;
+  }
+.additional_message{
+	font-size: 13px;
+}
+
+.select {
+	margin: 0;
+	position: relative;
+	width: 200px;
+}
+.select.is-active .select__body {
+	display: block;}
+
+.select__header {
+	border: 1px solid #ccc;
+	cursor: pointer;
+	border-radius: 3px;
+	display: flex;
+}
+.select__current {
+	font-size: 13px;
+	line-height: 24px;
+	padding: 8px;
+
+}
+.select__icon {
+	align-items: center;
+	display: flex;
+	flex-shrink: 0;
+	justify-content: center;
+	height: 40px;
+	margin-left: auto;
+	text-align: center;
+	width: 40px;
+}
+
+.select__body {
+	border: 1px solid #cccccc;
+	background-color: #fcfcfc;
+	border-top: 0;
+	display: none;
+	left: 0;
+	position: absolute;
+	border-radius: 3px;
+	right: 0;
+	top: 100%;
+}
+.select__item {
+	cursor: pointer;
+	font-size: 13px;
+	line-height: 24px;
+	padding: 8px;
+}
+
+.select__item:hover {
+	background-color:  #f2f2f2;
+}
+.main_information{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+	font-weight: 600;
+	align-content: space-between;
+	
+}
+.site_message{
+	margin-top: 60px;
+}
+.text_message{
+	font-weight: 800;
+}
+.site_messg {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 25px;
+	font-weight: 600;
+	align-content: space-between;
+  }
+  .site_line{
+	margin-right: 420px;
+  }
+
+  
+.agents_item {
+	margin: 0;
+	position: relative;
+	width: 200px;
+}
+.select.is-active .agents__body {
+	display: block;}
+
+.agents__header {
+	cursor: pointer;
+	font-weight: 800;
+	display: flex;
+}
+.agents__current {
+	font-size: 13px;
+	line-height: 24px;
+	padding: 8px;
+
+}
+.agents__icon {
+	align-items: center;
+	display: flex;
+	flex-shrink: 0;
+	justify-content: center;
+	height: 40px;
+	margin-left: auto;
+	text-align: center;
+	width: 40px;
+}
+
+.agents__body {
+	border: 1px solid #cccccc;
+	background-color: #fcfcfc;
+	border-top: 0;
+	display: none;
+	left: 0;
+	position: absolute;
+	border-radius: 3px;
+	right: 0;
+	top: 100%;
+}
+.agents__comp {
+	cursor: pointer;
+	font-size: 13px;
+	line-height: 24px;
+	padding: 8px;
+}
+
+.agents__comp:hover {
+	background-color:  #f2f2f2;
+}
